@@ -70,7 +70,7 @@
 <node CREATED="1453448823609" ID="ID_1795269327" MODIFIED="1453448856290" TEXT="modules"/>
 <node CREATED="1453448825978" ID="ID_433619533" MODIFIED="1453448868404" TEXT="packages"/>
 </node>
-<node CREATED="1453445207009" ID="ID_1893964553" MODIFIED="1453946840944" POSITION="right" TEXT="module">
+<node CREATED="1453445207009" ID="ID_1893964553" MODIFIED="1458035688999" POSITION="right" TEXT="module concept">
 <node CREATED="1453445376667" ID="ID_1042287152" MODIFIED="1453445376667" TEXT=""/>
 <node CREATED="1453445550087" ID="ID_833522661" MODIFIED="1453445550087" TEXT=""/>
 <node CREATED="1453445551909" ID="ID_609671882" MODIFIED="1453445551909" TEXT="">
@@ -102,17 +102,18 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1453446991381" ID="ID_1773702473" MODIFIED="1453447162947" TEXT="from .. import ...">
+<node CREATED="1453446991381" ID="ID_1773702473" MODIFIED="1458035795695" TEXT="from .. import ...">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      the statement from submodule import X in a direc-tory&#8217;s __init__.py makes the name X available in that directory&#8217;s namespace.
+      the statement from submodule import X in a directory&#8217;s __init__.py makes the name X available in that directory's namespace(The directory itself is an object and a namespace).
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1453445553621" ID="ID_1968677231" MODIFIED="1453446629381" TEXT="modules">
@@ -173,7 +174,7 @@
 <node CREATED="1453445704640" ID="ID_1422121980" MODIFIED="1453445806254" TEXT="The site-packages home of third-party extensions"/>
 </node>
 </node>
-<node CREATED="1453449397179" FOLDED="true" ID="ID_745998460" MODIFIED="1454257196043" POSITION="right" TEXT="Conceptual Hierachy">
+<node CREATED="1453449397179" FOLDED="true" ID="ID_745998460" MODIFIED="1458035677177" POSITION="right" TEXT="Conceptual Hierachy">
 <node CREATED="1453449423573" ID="ID_646717859" MODIFIED="1453449490335" TEXT="Programs are composed of modules"/>
 <node CREATED="1453449440295" ID="ID_1432647751" MODIFIED="1453449447026" TEXT="Modules contain statements"/>
 <node CREATED="1453449448624" ID="ID_1404241986" MODIFIED="1453449453928" TEXT="Statements contain expressions"/>
