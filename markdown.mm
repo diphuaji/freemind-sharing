@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1453980666628" ID="ID_202636864" MODIFIED="1453980747632" TEXT="MARKDOWN">
-<node CREATED="1453984828266" ID="ID_726832893" MODIFIED="1453984885150" POSITION="right" TEXT="Core">
+<node CREATED="1453984828266" ID="ID_726832893" MODIFIED="1457795412005" POSITION="right" TEXT="Core">
 <node CREATED="1453984891201" ID="ID_1525350690" MODIFIED="1453985513607" TEXT="bold: **bold**"/>
 <node CREATED="1453984931930" ID="ID_758841047" MODIFIED="1453985507347" TEXT="italic: _italic_"/>
 <node CREATED="1453984938092" ID="ID_180518673" MODIFIED="1453984940821" TEXT="link">
@@ -23,7 +23,7 @@
 </node>
 <node CREATED="1453985841715" ID="ID_568454481" MODIFIED="1453985851562" TEXT="paragraph: ">
 <node CREATED="1453986140157" ID="ID_1614123748" MODIFIED="1453986163459" TEXT="hard break(seperated by one line)"/>
-<node CREATED="1453986165902" ID="ID_1360962960" MODIFIED="1453986179103" TEXT="soft break(seperated by a \n)"/>
+<node CREATED="1453986165902" ID="ID_1360962960" MODIFIED="1457795408018" TEXT="soft break(seperated by two spaces followed by a \n)"/>
 </node>
 </node>
 </node>
