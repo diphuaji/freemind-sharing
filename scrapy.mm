@@ -31,6 +31,7 @@
 </node>
 </node>
 <node CREATED="1453648383595" ID="ID_1171687073" MODIFIED="1453648394442" POSITION="left" TEXT="classes">
+<node CREATED="1464626743482" ID="ID_1118739548" MODIFIED="1464626806998" TEXT="(create spider instance based on settings)SpiderLoader"/>
 <node CREATED="1453647698970" ID="ID_884575229" MODIFIED="1453648412663" TEXT="Spider">
 <node CREATED="1453648213617" ID="ID_264164310" MODIFIED="1453648259344" TEXT="shortcut: scrapy.Spider"/>
 <node CREATED="1453648474710" ID="ID_629519839" MODIFIED="1453648853987" TEXT="important attributes">
@@ -46,8 +47,7 @@
       The spider name is how the spider is located (and instantiated) by Scrapy, so it must be unique
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1453648624127" ID="ID_390646146" MODIFIED="1453648648962" TEXT="allowed_domains">
 <richcontent TYPE="NOTE"><html>
@@ -59,8 +59,7 @@
       Requests for URLs not belonging to the domain names specified in this list won&#8217;t be followed if <code class="xref py py-class docutils literal"><a title="scrapy.spidermiddlewares.offsite.OffsiteMiddleware" class="reference internal" href="http://doc.scrapy.org/en/latest/topics/spider-middleware.html#scrapy.spidermiddlewares.offsite.OffsiteMiddleware"><span class="pre">OffsiteMiddleware</span></a></code>&#160;is enabled
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1453648659256" ID="ID_314137886" MODIFIED="1453648669206" TEXT="start_urls">
 <richcontent TYPE="NOTE"><html>
@@ -72,8 +71,7 @@
       A list of URLs where the spider will begin to crawl from
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1453648691068" ID="ID_1863224401" MODIFIED="1453648737851" TEXT="custom_settings">
 <richcontent TYPE="NOTE"><html>
@@ -85,11 +83,10 @@
       A dictionary of settings that will be overridden from the project wide configuration when running this spider
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1453648692786" ID="ID_1984617475" MODIFIED="1453648694262" TEXT="crawler"/>
-<node CREATED="1453648856088" ID="ID_268589464" MODIFIED="1453648865081" TEXT="parse(response)">
+<node CREATED="1453648856088" ID="ID_268589464" MODIFIED="1464622962038" TEXT="parse(response)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
