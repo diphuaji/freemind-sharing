@@ -74,7 +74,7 @@
 <node CREATED="1453445376667" ID="ID_1042287152" MODIFIED="1453445376667" TEXT=""/>
 <node CREATED="1453445550087" ID="ID_833522661" MODIFIED="1453445550087" TEXT=""/>
 <node CREATED="1453445551909" ID="ID_609671882" MODIFIED="1453445551909" TEXT="">
-<node CREATED="1453445207009" ID="ID_1609863219" MODIFIED="1453447333793" TEXT="package import">
+<node CREATED="1453445207009" ID="ID_1609863219" MODIFIED="1466919836968" TEXT="package import(no init file in root)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -173,7 +173,7 @@
 <node CREATED="1453445704640" ID="ID_1422121980" MODIFIED="1453445806254" TEXT="The site-packages home of third-party extensions"/>
 </node>
 </node>
-<node CREATED="1453449397179" FOLDED="true" ID="ID_745998460" MODIFIED="1458035677177" POSITION="right" TEXT="Conceptual Hierachy">
+<node CREATED="1453449397179" FOLDED="true" ID="ID_745998460" MODIFIED="1466919854637" POSITION="right" TEXT="Conceptual Hierachy">
 <node CREATED="1453449423573" ID="ID_646717859" MODIFIED="1453449490335" TEXT="Programs are composed of modules"/>
 <node CREATED="1453449440295" ID="ID_1432647751" MODIFIED="1453449447026" TEXT="Modules contain statements"/>
 <node CREATED="1453449448624" ID="ID_1404241986" MODIFIED="1453449453928" TEXT="Statements contain expressions"/>
@@ -228,11 +228,86 @@
 </node>
 <node CREATED="1454257330338" ID="ID_137026425" MODIFIED="1454257335143" TEXT="multi-threading"/>
 </node>
-<node CREATED="1466917247627" ID="ID_896566440" MODIFIED="1466919302754" POSITION="right" TEXT="module management tools">
+<node CREATED="1466917247627" HGAP="25" ID="ID_896566440" MODIFIED="1466953677952" POSITION="right" TEXT="module management tools" VSHIFT="-159">
 <node CREATED="1466917337090" ID="ID_1622711689" MODIFIED="1466917363696" TEXT="distutils">
 <node CREATED="1466919569792" ID="ID_1135670914" MODIFIED="1466919666541" TEXT="dir structure(root of a package)">
 <icon BUILTIN="folder"/>
-<node CREATED="1466919311725" ID="ID_969247262" MODIFIED="1466919353875" TEXT="setup.py">
+<node CREATED="1466919311725" ID="ID_969247262" MODIFIED="1466947678420" TEXT="setup.py">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The main purpose of the setup script is to describe your module distribution to the Distutils, so that the various commands that operate on your modules do the right thing
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="attach"/>
+<node CREATED="1466947525579" ID="ID_982133233" MODIFIED="1466948871974" TEXT="setup method params">
+<node CREATED="1466948982635" ID="ID_1217165018" MODIFIED="1466948990082" TEXT="name"/>
+<node CREATED="1466948995040" ID="ID_945964189" MODIFIED="1466948997076" TEXT="version"/>
+<node CREATED="1466949000155" ID="ID_1988484729" MODIFIED="1466949155988" TEXT="...(optional metainfo)"/>
+<node CREATED="1466949276863" ID="ID_285692551" MODIFIED="1466949296161" TEXT="ext_package(c/c++)"/>
+<node CREATED="1466949216690" FOLDED="true" ID="ID_1702461134" MODIFIED="1466949303121" TEXT="ext_modules(c/c++)">
+<node CREATED="1466949233251" ID="ID_1967472872" MODIFIED="1466949246741" TEXT="Extension Constructor"/>
+</node>
+<node CREATED="1466949014023" ID="ID_1103006627" MODIFIED="1466949016729" TEXT="packages"/>
+<node CREATED="1466949181709" ID="ID_1998659237" MODIFIED="1466949183287" TEXT="package_dir"/>
+<node CREATED="1466949147754" ID="ID_706773592" MODIFIED="1466949172299" TEXT="py_modules"/>
+<node CREATED="1466949385275" ID="ID_1441621578" MODIFIED="1466949472090" TEXT="extra_objects">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <tt class="docutils literal"><span class="pre">extra_objects</span></tt>&#160;option is a list of object files to be passed to the linker. These files must not have extensions, as the default extension for the compiler is used.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1466949415150" ID="ID_746577762" MODIFIED="1466949438495" TEXT="extra_compile_args(c/c++)"/>
+<node CREATED="1466949431086" ID="ID_1022725484" MODIFIED="1466949445141" TEXT="extra_link_args(c/c++)"/>
+<node CREATED="1466949356211" ID="ID_377858198" MODIFIED="1466949641507" TEXT="depends (c/c++)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <tt class="docutils literal"><span class="pre">depends</span></tt>&#160;option is a list of files that the extension depends on (for example header files).
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1466949673580" ID="ID_1255665577" MODIFIED="1466949788357" TEXT="requires">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">Dependencies on other Python modules and packages can be specified by supplying the <em>requires </em></font>
+    </p>
+    <p>
+      <font size="3">The value must be a list of strings. Each string specifies a package that is required, and optionally what versions are sufficient.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1466949813949" ID="ID_1841715142" MODIFIED="1466949822796" TEXT="provides "/>
+<node CREATED="1466950281070" ID="ID_64332342" MODIFIED="1466950282081" TEXT="scripts "/>
+<node CREATED="1466950195986" ID="ID_1714805182" MODIFIED="1466950200342" TEXT="package_data"/>
+<node CREATED="1466950206758" ID="ID_1550007077" MODIFIED="1466950207993" TEXT="package_dir"/>
+<node CREATED="1466950320799" ID="ID_1471296914" MODIFIED="1466950321526" TEXT="data_files"/>
+</node>
+</node>
+<node CREATED="1466947688247" ID="ID_540821933" MODIFIED="1466947747852" TEXT="setup.cfg(optional)">
 <icon BUILTIN="attach"/>
 </node>
 <node CREATED="1466919586013" ID="ID_1858082099" MODIFIED="1466919676971" TEXT="package1">
@@ -246,7 +321,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1466917370707" ID="ID_21208897" MODIFIED="1466917534413" TEXT="setuptools(a collection of enhancements to the Python distutils)"/>
+<node CREATED="1466917370707" ID="ID_21208897" MODIFIED="1466917534413" TEXT="setuptools(a collection of enhancements to the Python distutils)">
+<node CREATED="1466921725831" ID="ID_1984373703" MODIFIED="1466921731471" TEXT="tools">
+<node CREATED="1466921732857" ID="ID_874040808" MODIFIED="1466921736179" TEXT="easy_install"/>
+<node CREATED="1466921749959" ID="ID_1598984238" MODIFIED="1466921758476" TEXT="..."/>
+</node>
+</node>
 </node>
 </node>
 </map>

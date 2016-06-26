@@ -6,8 +6,22 @@
 <node CREATED="1466912500743" ID="ID_84456455" MODIFIED="1466912534755" TEXT="bootstrap.py">
 <icon BUILTIN="attach"/>
 </node>
-<node CREATED="1466912502325" ID="ID_15600168" MODIFIED="1466912537709" TEXT="buildout.cfg">
+<node CREATED="1466912502325" ID="ID_15600168" MODIFIED="1466928178992" TEXT="buildout.cfg">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A Buildout consists of multiple sections. Sections start with the section name in square brackets. Each section declares a different part of your application. As a rough analogy, your Buildout file is a cookbook with multiple recipes.
+    </p>
+  </body>
+</html>
+</richcontent>
 <icon BUILTIN="attach"/>
+<node CREATED="1466928155594" ID="ID_1756632564" MODIFIED="1466928200524" TEXT="[buildout]">
+<node CREATED="1466928204330" ID="ID_329815903" MODIFIED="1466928223988" TEXT="parts"/>
+</node>
 </node>
 <node CREATED="1466912516201" ID="ID_492532213" MODIFIED="1466912537711" TEXT=".installed.cfg">
 <icon BUILTIN="attach"/>
