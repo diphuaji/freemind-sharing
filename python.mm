@@ -112,8 +112,7 @@
       the statement from submodule import X in a directory&#8217;s __init__.py makes the name X available in that directory's namespace(The directory itself is an object and a namespace).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1453445553621" ID="ID_1968677231" MODIFIED="1453446629381" TEXT="modules">
@@ -228,6 +227,26 @@
 </node>
 </node>
 <node CREATED="1454257330338" ID="ID_137026425" MODIFIED="1454257335143" TEXT="multi-threading"/>
+</node>
+<node CREATED="1466917247627" ID="ID_896566440" MODIFIED="1466919302754" POSITION="right" TEXT="module management tools">
+<node CREATED="1466917337090" ID="ID_1622711689" MODIFIED="1466917363696" TEXT="distutils">
+<node CREATED="1466919569792" ID="ID_1135670914" MODIFIED="1466919666541" TEXT="dir structure(root of a package)">
+<icon BUILTIN="folder"/>
+<node CREATED="1466919311725" ID="ID_969247262" MODIFIED="1466919353875" TEXT="setup.py">
+<icon BUILTIN="attach"/>
+</node>
+<node CREATED="1466919586013" ID="ID_1858082099" MODIFIED="1466919676971" TEXT="package1">
+<icon BUILTIN="folder"/>
+<node CREATED="1466919635860" ID="ID_1737260903" MODIFIED="1466919644346" TEXT="__init__.py"/>
+<node CREATED="1466919645888" ID="ID_303812204" MODIFIED="1466919652338" TEXT="x.py"/>
+<node CREATED="1466919654453" ID="ID_1618286004" MODIFIED="1466919656673" TEXT="..."/>
+</node>
+<node CREATED="1466919667841" ID="ID_923890423" MODIFIED="1466919709048" TEXT="...package-n">
+<icon BUILTIN="folder"/>
+</node>
+</node>
+</node>
+<node CREATED="1466917370707" ID="ID_21208897" MODIFIED="1466917534413" TEXT="setuptools(a collection of enhancements to the Python distutils)"/>
 </node>
 </node>
 </map>
