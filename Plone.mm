@@ -1,8 +1,9 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1466854722537" ID="ID_1471797145" MODIFIED="1466856555106" TEXT="Plone">
-<node CREATED="1466856381090" ID="ID_953328326" MODIFIED="1466856409813" POSITION="left" TEXT="Diazo Theme">
-<node CREATED="1466855021603" ID="ID_1063968955" MODIFIED="1466855193260" TEXT="manifest.cfg">
+<node CREATED="1467006231073" ID="ID_723816042" MODIFIED="1467006237886" POSITION="left" TEXT="Theming">
+<node CREATED="1466856381090" ID="ID_953328326" MODIFIED="1467006260604" TEXT="Diazo Theme(recommended)">
+<node CREATED="1466855021603" ID="ID_1063968955" MODIFIED="1467006282464" TEXT="manifest.cfg">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,8 +14,9 @@
     </p>
   </body>
 </html></richcontent>
+<icon BUILTIN="attach"/>
 </node>
-<node CREATED="1466855143194" ID="ID_1624197151" MODIFIED="1466855184830" TEXT="rules.xml">
+<node CREATED="1466855143194" ID="ID_1624197151" MODIFIED="1467006284555" TEXT="rules.xml">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -24,9 +26,11 @@
       contains the theme rules
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<icon BUILTIN="attach"/>
 </node>
-<node CREATED="1466855149982" ID="ID_1794274588" MODIFIED="1466855176721" TEXT="index.html">
+<node CREATED="1466855149982" ID="ID_1794274588" MODIFIED="1467006284556" TEXT="index.html">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -36,8 +40,12 @@
       the static HTML of the theme.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<icon BUILTIN="attach"/>
 </node>
+</node>
+<node CREATED="1467006241984" ID="ID_594624092" MODIFIED="1467006276432" TEXT="file overriding(with ZTP, python...)"/>
 </node>
 <node CREATED="1466856758921" ID="ID_1530356382" MODIFIED="1466859170370" POSITION="right" TEXT="content(resemble a db table)">
 <node CREATED="1466856558481" ID="ID_1920314273" MODIFIED="1466856583301" TEXT="content types">
@@ -64,12 +72,12 @@
       A content type is a variety of object that can store information and is editable by users. We have different contenttypes to reflect the different kinds of information about which we need to collect and display information. Pages, folders, events, news items, files (binary) and images are all contenttypes.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1466859052040" ID="ID_210834870" MODIFIED="1466859056980" TEXT="Schema"/>
 <node CREATED="1466859060943" ID="ID_1700123264" MODIFIED="1466860614806" TEXT="FTI(Factory Type Information)"/>
 <node CREATED="1466859066140" ID="ID_331804773" MODIFIED="1466859067098" TEXT="Views"/>
 </node>
 </node>
+<node CREATED="1467006224260" ID="ID_97521094" MODIFIED="1467006224260" POSITION="right" TEXT=""/>
 </node>
 </map>
