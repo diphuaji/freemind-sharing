@@ -219,7 +219,7 @@
 </node>
 <node CREATED="1454257203547" ID="ID_542359313" MODIFIED="1454257209147" POSITION="right" TEXT="process">
 <node CREATED="1454257319590" ID="ID_752393154" MODIFIED="1454257326095" TEXT="multi-processing">
-<node CREATED="1454257215590" ID="ID_402583272" MODIFIED="1466953744498" TEXT="IPC(inter-process comm)">
+<node CREATED="1454257215590" ID="ID_402583272" MODIFIED="1467029068323" TEXT="IPC(inter-process comm)">
 <node CREATED="1454257227665" ID="ID_1443825352" MODIFIED="1454257270157" TEXT="envronmet variables"/>
 <node CREATED="1454257271904" ID="ID_1286005869" MODIFIED="1454257285051" TEXT="pipes"/>
 <node CREATED="1454257289357" ID="ID_171377512" MODIFIED="1454257293273" TEXT="signals"/>
@@ -242,8 +242,7 @@
       The main purpose of the setup script is to describe your module distribution to the Distutils, so that the various commands that operate on your modules do the right thing
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="attach"/>
 <node CREATED="1466947525579" ID="ID_982133233" MODIFIED="1466948871974" TEXT="setup method params">
 <node CREATED="1466948982635" ID="ID_1217165018" MODIFIED="1466948990082" TEXT="name"/>
@@ -266,8 +265,7 @@
       The <tt class="docutils literal"><span class="pre">extra_objects</span></tt>&#160;option is a list of object files to be passed to the linker. These files must not have extensions, as the default extension for the compiler is used.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1466949415150" ID="ID_746577762" MODIFIED="1466949438495" TEXT="extra_compile_args(c/c++)"/>
 <node CREATED="1466949431086" ID="ID_1022725484" MODIFIED="1466949445141" TEXT="extra_link_args(c/c++)"/>
@@ -281,8 +279,7 @@
       The <tt class="docutils literal"><span class="pre">depends</span></tt>&#160;option is a list of files that the extension depends on (for example header files).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1466949673580" ID="ID_1255665577" MODIFIED="1466949788357" TEXT="requires">
 <richcontent TYPE="NOTE"><html>
@@ -297,8 +294,7 @@
       <font size="3">The value must be a list of strings. Each string specifies a package that is required, and optionally what versions are sufficient.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1466949813949" ID="ID_1841715142" MODIFIED="1466949822796" TEXT="provides "/>
 <node CREATED="1466950281070" ID="ID_64332342" MODIFIED="1466950282081" TEXT="scripts "/>

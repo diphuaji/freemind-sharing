@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1466854722537" ID="ID_1471797145" MODIFIED="1466856555106" TEXT="Plone">
-<node CREATED="1467006231073" ID="ID_723816042" MODIFIED="1467006237886" POSITION="left" TEXT="Theming">
+<node CREATED="1467006231073" ID="ID_723816042" MODIFIED="1467018932879" POSITION="left" TEXT="Theming">
 <node CREATED="1466856381090" ID="ID_953328326" MODIFIED="1467006260604" TEXT="Diazo Theme(recommended)">
 <node CREATED="1466855021603" ID="ID_1063968955" MODIFIED="1467006282464" TEXT="manifest.cfg">
 <richcontent TYPE="NOTE"><html>
@@ -16,7 +16,7 @@
 </html></richcontent>
 <icon BUILTIN="attach"/>
 </node>
-<node CREATED="1466855143194" ID="ID_1624197151" MODIFIED="1467006284555" TEXT="rules.xml">
+<node CREATED="1466855143194" ID="ID_1624197151" MODIFIED="1467017985610" TEXT="rules.xml">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -40,8 +40,7 @@
       the static HTML of the theme.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="attach"/>
 </node>
 </node>
