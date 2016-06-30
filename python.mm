@@ -317,11 +317,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1466917370707" ID="ID_21208897" MODIFIED="1466917534413" TEXT="setuptools(a collection of enhancements to the Python distutils)">
+<node CREATED="1466917370707" ID="ID_21208897" MODIFIED="1467219757184" TEXT="setuptools(a collection of enhancements to the Python distutils)">
 <node CREATED="1466921725831" ID="ID_1984373703" MODIFIED="1466921731471" TEXT="tools">
 <node CREATED="1466921732857" ID="ID_874040808" MODIFIED="1466921736179" TEXT="easy_install"/>
 <node CREATED="1466921749959" ID="ID_1598984238" MODIFIED="1466921758476" TEXT="..."/>
 </node>
+<node CREATED="1467219760692" ID="ID_764814510" MODIFIED="1467219764966" TEXT="setup.py"/>
 </node>
 </node>
 </node>
