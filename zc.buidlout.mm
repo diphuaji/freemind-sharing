@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1466911350937" ID="ID_1217662169" MODIFIED="1467207544899" TEXT="zc.buidlout(based on setup.py)">
+<node CREATED="1466911350937" ID="ID_1217662169" MODIFIED="1467304287333" TEXT="zc.buidlout(based on setup.py)">
 <node CREATED="1466912429619" ID="ID_1855696647" MODIFIED="1466912498451" POSITION="right" TEXT="dir strcture">
 <icon BUILTIN="folder"/>
 <node CREATED="1466912500743" ID="ID_84456455" MODIFIED="1466912534755" TEXT="bootstrap.py">
@@ -29,8 +29,7 @@
       the path to a src containing a setup.py file
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1466928204330" ID="ID_329815903" MODIFIED="1466928223988" TEXT="parts">
 <node CREATED="1467207681930" ID="ID_360492628" MODIFIED="1467207684982" TEXT="part1"/>
@@ -45,6 +44,19 @@
   <body>
     <p>
       specify the versions of eggs
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1467273570403" ID="ID_1191485325" MODIFIED="1467299661175" TEXT="extends(cfg url)"/>
+<node CREATED="1467299672063" ID="ID_1076785574" MODIFIED="1467446237808" TEXT="extensions">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      packages to extend the ability of buildout
     </p>
   </body>
 </html>

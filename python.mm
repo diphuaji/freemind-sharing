@@ -322,7 +322,48 @@
 <node CREATED="1466921732857" ID="ID_874040808" MODIFIED="1466921736179" TEXT="easy_install"/>
 <node CREATED="1466921749959" ID="ID_1598984238" MODIFIED="1466921758476" TEXT="..."/>
 </node>
-<node CREATED="1467219760692" ID="ID_764814510" MODIFIED="1467219764966" TEXT="setup.py"/>
+<node CREATED="1467219760692" ID="ID_764814510" MODIFIED="1467302255233" TEXT="setup.py">
+<node CREATED="1467302055553" ID="ID_1360846381" MODIFIED="1467302068736" TEXT="zip_safe">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">A boolean (True or False) flag specifying whether the project can be safely installed and run from a zip file. If this argument is not supplied, the <code class="docutils literal">bdist_egg</code>&#160;&#160;command will have to analyze all of your project&#8217;s contents for possible problems each time it builds an egg.</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1467302257816" ID="ID_959817116" MODIFIED="1467302296737" TEXT="extras_require">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      the <span class="pre"><code class="docutils literal">extras_require</code></span>&#160;argument takes a dictionary mapping names of &#8220;extra&#8221; features, to strings or lists of strings describing those features&#8217; requirements.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1467303105680" ID="ID_1649577738" MODIFIED="1467446238463" TEXT="include_package_data(like package_data)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This tells setuptools to install any data files it finds in your packages. The data files must be specified via the distutils&#8217; <code class="docutils literal">MANIFEST.in</code>&#160; file.
+    </p>
+    <p>
+      If using the setuptools-specific <code class="docutils literal">include_package_data</code>&#160;argument, files specified by <code class="docutils literal">package_data</code>&#160;will <em>not</em>&#160;be automatically added to the manifest unless they are listed in the MANIFEST.in file.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
