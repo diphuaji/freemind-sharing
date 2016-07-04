@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1453376921761" ID="ID_859738115" MODIFIED="1453944548810" TEXT="${project_name}">
+<node CREATED="1453376921761" ID="ID_859738115" MODIFIED="1467646466628" TEXT="${project_name}">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -10,7 +10,8 @@
       <font size="4">Django Dir Hierachy</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="folder"/>
 <node CREATED="1453376979591" HGAP="25" ID="ID_1806521792" MODIFIED="1453476267261" POSITION="right" TEXT="${project_name}" VSHIFT="-12">
@@ -259,8 +260,9 @@
 </node>
 </node>
 </node>
+<node CREATED="1467648397312" ID="ID_246010061" MODIFIED="1467648400922" TEXT="SITE_ID"/>
 </node>
-<node CREATED="1453377638258" FOLDED="true" HGAP="31" ID="ID_832051136" MODIFIED="1453968363649" TEXT="urls.py" VSHIFT="-10">
+<node CREATED="1453377638258" FOLDED="true" HGAP="31" ID="ID_832051136" MODIFIED="1467646489051" TEXT="urls.py" VSHIFT="-10">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="attach"/>
 <node CREATED="1453458124518" ID="ID_881268545" MODIFIED="1453888016029" TEXT="urlpatterns[&apos;www.a.com&apos;, include]">
